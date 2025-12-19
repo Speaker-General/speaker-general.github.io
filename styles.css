@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+  }
+
+  .header-banner {
+    background-color: rgb(0, 27, 95);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .site-footer {
+    background-color: rgb(0, 27, 95);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .navbar {
+    background-color: rgb(0, 57, 203);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .navbar a:hover {
+    background-color: #0086e6;
+  }
+
+  .main-content {
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .main-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .main-content p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+
+  .social-table {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.social-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.social-table th,
+.social-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.social-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.social-table a {
+  color: rgb(0, 57, 203);
+  text-decoration: none;
+}
+
+.social-table a:hover {
+  text-decoration: underline;
+}
